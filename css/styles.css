@@ -1,0 +1,43 @@
+@font-face {font-family:"Roboto"; src:url("../fonts/Roboto.ttf") format("truetype"); font-weight:normal; font-style:normal}
+@font-face {font-family:"RobotoSlab"; src:url("../fonts/RobotoSlabRegular.ttf") format("truetype"); font-weight:normal; font-style:normal}
+@font-face {font-family:"RobotoSlab"; src:url("../fonts/RobotoSlabBold.ttf") format("truetype"); font-weight:bold; font-style:normal}
+
+body {margin:0; padding:0; font:15px/15px Roboto, helvetica, sans-serif; color:#252525; background:#fff}
+
+a {color:#7fc241; text-decoration:none; outline:none}
+
+img {border:none}
+
+.header {width:100%; border-collapse:collapse}
+
+.logo {vertical-align:top; line-height:0}
+
+.contacts {vertical-align:top; text-align:right; padding:8px 0 0 0}
+.phone {color:#121e35; font-weight:bold; font-family:"RobotoSlab", sans-serif; font-size:20px}
+.link {font-size:17px}
+
+.title {padding:40px 0 0 0; text-transform:uppercase; font-family:"RobotoSlab", sans-serif; font-weight:bold; font-size:20px}
+.title span {font-weight:normal}
+
+.text {padding:8px 0 0 0}
+.text p {margin:0; padding:15px 0 0 0}
+.text p:first-child {padding:0}
+
+.content {width:100%; border-collapse:collapse; margin:60px 0 0 0}
+
+.info {vertical-align:top; width:50%; padding:0 15px 0 0}
+.info table {width:100%; border-collapse:collapse}
+.info table tr:nth-child(odd) {background:#f2f3f5}
+.info-name {padding:4px 0 6px 20px; vertical-align:top; color:#747474}
+.info-value {padding:4px 20px 6px 0; vertical-align:top; white-space:nowrap; text-align:right}
+.info-value.price {color:#629e2a; font-family:"RobotoSlab", sans-serif; font-weight:bold; font-size:23px; line-height:23px; padding-top:0}
+
+.plan {vertical-align:top; width:50%; padding:0 0 0 15px; text-align:right; line-height:0}
+.plan img {max-height:250px}
+
+.schemes {width:100%; border-collapse:collapse; margin:100px 0 0 0}
+
+.floor {vertical-align:top; width:100%}
+.floor img {max-width:700px}
+
+.floor-title {text-align:center; color:#252525; font-family:"RobotoSlab", sans-serif; font-weight:bold; font-size:20px; line-height:20px; padding:20px 0 0 0}
